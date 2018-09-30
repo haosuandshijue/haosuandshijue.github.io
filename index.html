@@ -67,7 +67,7 @@
 				<div class="col-xs-4 text-right menu-1">
 					<ul>
 						<li class="active"><a href="index.html">Home</a></li>
-						<li><a href="registry.html">Registry</a></li>
+						<li><a href="#fh5co-started">Registry</a></li>
 <!--
 						<li class="has-dropdown">
 							<a href="services.html">Services</a>
@@ -106,7 +106,7 @@
 							<h1>Haosu &amp; Shijue</h1>
 							<h2>We Are Getting Married</h2>
 							<div class="simply-countdown simply-countdown-one"></div>
-							<p><a href="#" class="btn btn-default btn-sm">Save the date</a></p>
+							<p><a href="#fh5co-started" class="btn btn-default btn-sm">RSVP 赴邀</a><a href="#fh5co-bless" class="btn btn-default btn-sm">Bless 祝福</a></p>
 						</div>
 					</div>
 				</div>
@@ -465,7 +465,7 @@
 										</figure>
 										<span>Central Park, New York, 2018</span>
 										<blockquote>
-											<p>Holding hands in our favorite park.</p>
+											<p>They are holding hands in their favorite park.</p>
 										</blockquote>
 									</div>
 								</div>
@@ -474,9 +474,9 @@
 										<figure>
 											<img src="images/gallery-2017-01.jpg" alt="user">
 										</figure>
-										<span>Upstate Oysters, New York, 2018</span>
+										<span>Upstate Oysters, New York, 2017</span>
 										<blockquote>
-											<p>We spent more time finding THE restaurant to try than actual eating. Not time efficient but always fun.</p>
+											<p>They spent more time finding THE restaurant to try than actual eating. Not time efficient but always fun.</p>
 										</blockquote>
 									</div>
 								</div>
@@ -496,9 +496,53 @@
 										<figure>
 											<img src="images/gallery-2016-01.jpg" alt="user">
 										</figure>
-										<span>Grand Canyon of the Yellowstone, Wyoming, 2017</span>
+										<span>Grand Canyon of the Yellowstone, Wyoming, 2016</span>
 										<blockquote>
-											<p>Awe-inspiring views become long-lasting memories we share. It makes our life colorful and meaningful. That's why we enjoy traveling so much.</p>
+											<p>Awe-inspiring views become long-lasting memory they share. It makes their life colorful and meaningful. That's why they enjoy traveling so much.</p>
+										</blockquote>
+									</div>
+								</div>
+								<div class="item">
+									<div class="testimony-slide active text-center">
+										<figure>
+											<img src="images/gallery-2015-01.jpg" alt="user">
+										</figure>
+										<span>Harvard Museum of Natural History, Massachusetts, 2015</span>
+										<blockquote>
+											<p>They started dating long distance. She would drive 4 hours to see him. He would plan everything to make the trip worth.</p>
+										</blockquote>
+									</div>
+								</div>
+								<div class="item">
+									<div class="testimony-slide active text-center">
+										<figure>
+											<img src="images/gallery-2014-01.jpg" alt="user">
+										</figure>
+										<span>Mount Rainier, Washington, 2014</span>
+										<blockquote>
+											<p>She is not a big fan of walking long trails, so he does a favor of not telling her the distance.</p>
+										</blockquote>
+									</div>
+								</div>
+								<div class="item">
+									<div class="testimony-slide active text-center">
+										<figure>
+											<img src="images/gallery-2014-03.jpg" alt="user">
+										</figure>
+										<span>Festival of Ballooning, New Jersey, 2014</span>
+										<blockquote>
+											<p>Summer of east coast is their favorite season of year.</p>
+										</blockquote>
+									</div>
+								</div>
+								<div class="item">
+									<div class="testimony-slide active text-center">
+										<figure>
+											<img src="images/gallery-2013-02.jpg" alt="user">
+										</figure>
+										<span>Disney World, Florida, 2013</span>
+										<blockquote>
+											<p>To infinity and beyond!</p>
 										</blockquote>
 									</div>
 								</div>
@@ -575,26 +619,65 @@
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 					<h2>Are You Attending?</h2>
-					<p>Please Fill-up the form to notify you that you're attending. Thanks.</p>
+					<p>Please Fill-up the form to notify us that you're attending. Thanks.</p>
 				</div>
 			</div>
 			<div class="row animate-box">
 				<div class="col-md-10 col-md-offset-1">
-					<form class="form-inline">
-						<div class="col-md-4 col-sm-4">
+					<form class="form-inline" name="RSVP" method="POST", action="https://formspree.io/haosuandshijue@gmail.com">
+						<div class="col-md-3 col-sm-3">
 							<div class="form-group">
-								<label for="name" class="sr-only">Name</label>
-								<input type="name" class="form-control" id="name" placeholder="Name">
+								<label for="name" class="sr-only">Name 姓名</label>
+								<input type="name" class="form-control" id="name" placeholder="Name 姓名">
 							</div>
 						</div>
-						<div class="col-md-4 col-sm-4">
+						<div class="col-md-3 col-sm-3">
 							<div class="form-group">
-								<label for="email" class="sr-only">Email</label>
-								<input type="email" class="form-control" id="email" placeholder="Email">
+								<label for="contact" class="sr-only">Email/微信/电话</label>
+								<input type="text" class="form-control" id="contact" placeholder="Email/微信/电话">
 							</div>
 						</div>
-						<div class="col-md-4 col-sm-4">
-							<button type="submit" class="btn btn-default btn-block">I am Attending</button>
+						<div class="col-md-3 col-sm-3">
+							<div class="form-group">
+								<label for="party" class="sr-only">Party 人数</label>
+								<input type="text" class="form-control" id="party" placeholder="Party 人数">
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3">
+							<button type="submit" class="btn btn-default btn-block">RSVP 赴邀</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+      
+      
+	<div id="fh5co-bless" class="fh5co-bg" style="background-image:url(images/img_bg_5.jpg);">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Send Us Your Regards!</h2>
+				</div>
+			</div>
+			<div class="row animate-box">
+				<div class="col-md-10 col-md-offset-1">
+					<form class="form-inline" name="Regards" method="POST", action="https://formspree.io/haosuandshijue@gmail.com">
+						<div class="col-md-3 col-sm-3">
+							<div class="form-group">
+								<label for="name" class="sr-only">Name 姓名</label>
+								<input type="name" class="form-control" id="name" placeholder="Name 姓名">
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-6">
+							<div class="form-group">
+								<label for="message" class="sr-only">Message 祝福</label>
+                              <textarea class="form-control" id="message" placeholder="Be creative!"></textarea>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3">
+							<button type="submit" class="btn btn-default btn-block">Bless 祝福</button>
 						</div>
 					</form>
 				</div>
